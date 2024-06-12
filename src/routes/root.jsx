@@ -7,10 +7,13 @@ export default function Root() {
           <nav>
             <ul>
               <li>
-                <Link to={`/`}>Accuei</Link>
+                <Link to={`/`}>Accueil</Link>
               </li>
               <li>
                 <Link to={`/eleves`}>Eleves</Link>
+              </li>
+              <li>
+                <Link to={`/professeurs`}>Professeur</Link>
               </li>
             </ul>
           </nav>

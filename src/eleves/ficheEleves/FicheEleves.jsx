@@ -7,6 +7,7 @@ export const FicheEleves = ({nom, prenom, notes}) => {
                 {nom} {prenom}
             </h1>
             <ul>
+                {/* A regarder en detail  */}
                 {Object.keys(notes).map((matiere, index) => (
                     <li key={index}>
                         {matiere}: {notes[matiere]}

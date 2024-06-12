@@ -6,6 +6,7 @@ import { RouterProvider, Link, createBrowserRouter } from 'react-router-dom';
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Eleves from "./routes/eleves";
+import Professeurs from "./routes/professeurs";
 
 // const router = createBrowserRouter([
 //   {
@@ -53,7 +54,12 @@ const router = createBrowserRouter([
         path: "eleves",
         element: <Eleves />,
       },
+      {
+        path: "professeurs",
+        element: <Professeurs />,
+      },
     ],
+    
   },
 ])
 
