@@ -2,18 +2,17 @@ export let professeurs = [
     {
         "nom": "El Professor",
         "prenom": "Casa de papel",
-        "matiere_enseigner": "braquage de banque"          
+        "matiere": "Braquage"          
     },
     {
         "nom": "Onizuka",
         "prenom": "Eikichi",
-        "matiere" : "vie"    
+        "matiere": "Vie"    
     },
     {
         "nom": "Bissor",
         "prenom": "Melvin",
         "matiere": "React"   
-    }
-       
+    } 
 ]
 

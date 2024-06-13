@@ -1,10 +1,11 @@
 import "./FicheEleves.css"
+import { Notes } from "../notes/Notes"
 
 export const FicheEleves = ({nom, prenom, notes}) => {
     return (
         <div className="eleves">
             <h1>
-                {nom} {prenom}
+                {prenom} {nom}
             </h1>
             <ul>
                 {/* A regarder en detail  */}
@@ -14,6 +15,7 @@ export const FicheEleves = ({nom, prenom, notes}) => {
                     </li>
                 ))}
             </ul>
+            <Notes />
         </div>
     )
 }

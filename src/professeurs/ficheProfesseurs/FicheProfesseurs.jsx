@@ -4,9 +4,9 @@ export const FicheProfesseurs = ({nom, prenom, matiere}) => {
     return (
         <div className="professeurs">
             <h1>
-                {nom} {prenom} {matiere}
+                {nom} {prenom}
             </h1>
-            
+            Matiere enseignée : <b>{matiere}</b>
         </div>
     )
 }
