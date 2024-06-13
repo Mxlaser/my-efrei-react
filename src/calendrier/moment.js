@@ -15,4 +15,4 @@ export const MyCalendar = (props) => (
       style={{ height: 500 }}
     />
   </div>
-) 
+)
