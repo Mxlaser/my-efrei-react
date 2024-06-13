@@ -15,6 +15,9 @@ export default function Root() {
               <li>
                 <Link to={`/professeurs`}>Professeurs</Link>
               </li>
+              <li>
+                <Link to={`/calendrier`}>Calendrier</Link>
+              </li>
             </ul>
           </nav>
         </div>

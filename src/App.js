@@ -4,6 +4,7 @@ import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Eleves from "./routes/eleves";
 import Professeurs from "./routes/professeurs";
+import Calendrier from './routes/calendrier';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "professeurs",
         element: <Professeurs />,
+      },
+      {
+        path: "calendrier",
+        element: <Calendrier />,
       }
     ],
     
