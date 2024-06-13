@@ -1,10 +1,9 @@
-import { MyCalendar } from '../calendrier/moment';
-import { planning } from '../calendrier/calendrier';
+import { MonCalendrier } from '../calendrier/Moment';
 
 export default function Calendrier() {
     return (
         <div>
-            <MyCalendar liste={planning}/>
+            <MonCalendrier />
         </div>
     )
 }
